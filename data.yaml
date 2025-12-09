@@ -1,0 +1,13 @@
+train: data/images/train
+val: data/images/val
+test: data/images/test
+
+nc: 31
+names: ['arbol', 'arbusto', 'bancas', 'banqueta', 'basureso', 'camino', 'caseta', 'cinta', 'edificio L', 'edificio c', 'entrada', 'escaleras', 'jardinera', 'letrero', 'llenado de agua', 'moto', 'pared', 'pasillo', 'pero', 'persona', 'pilar', 'poste de luz', 'pupitres', 'rampa', 'salon', 'salon A', 'salon O', 'salon q', 'salon quimica', 'sillas', 'tronco']
+
+roboflow:
+  workspace: ia-vcwaz
+  project: my-first-project-4liye
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ia-vcwaz/my-first-project-4liye/dataset/1

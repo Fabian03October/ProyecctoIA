@@ -1,0 +1,29 @@
+# Requirements para Sistema de Detección y Localización 3D
+# Proyecto: Asistencia Visual para Personas con Discapacidad
+
+# Deep Learning y Visión por Computadora
+ultralytics>=8.0.0          # YOLOv8
+torch>=2.0.0                # PyTorch
+torchvision>=0.15.0         # Visión PyTorch
+opencv-python>=4.8.0        # OpenCV para procesamiento de imagen
+opencv-contrib-python>=4.8.0  # Módulos adicionales de OpenCV (stereo)
+
+# Procesamiento de Datos
+numpy>=1.24.0               # Computación numérica
+pandas>=2.0.0               # Análisis de datos
+pillow>=10.0.0              # Procesamiento de imágenes
+
+# Síntesis de Voz
+pyttsx3>=2.90               # Text-to-Speech
+
+# Visualización y Análisis
+matplotlib>=3.7.0           # Gráficas
+seaborn>=0.12.0             # Visualización estadística
+
+# Utilidades
+tqdm>=4.65.0                # Barras de progreso
+pyyaml>=6.0                 # Lectura de archivos YAML
+
+# Desarrollo (Opcional)
+jupyter>=1.0.0              # Notebooks
+ipykernel>=6.25.0           # Kernel de Jupyter
